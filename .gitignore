@@ -1,0 +1,50 @@
+# Specify filepatterns you want git to ignore.
+ 
+# =============================== #
+# Visual Studio / Rider generated #
+# =============================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.idea
+.vsconfig
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# ===== #
+# Other #
+# ===== #
+*.TMP
+*.apk
+*.aab
+*.apks
+*.obb
+*.iap
+*.unity3d
+GitLog
+Assembly-CSharp.patch.bytes
+BuildInfo.properties
+Builds/
+RemoteData/
+Recordings
+UserSettings
+Temp
+/Library
+/Logs
+/UserSettings
+
