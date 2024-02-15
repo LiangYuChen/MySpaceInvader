@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AlienBullet
       objectReference: {fileID: 0}
+    - target: {fileID: 3985004657521359367, guid: 95664edc01baa014e9c955524e79ed4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3985004657521359368, guid: 95664edc01baa014e9c955524e79ed4d, type: 3}
       propertyPath: m_Color.b
       value: 0.0046502426
