@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alien1
+      name: Squid
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien2
+      name: Crab
       rect:
         serializedVersion: 2
         x: 16
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien3
+      name: Octopus
       rect:
         serializedVersion: 2
         x: 32
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlienBoss
+      name: UFO
       rect:
         serializedVersion: 2
         x: 32
@@ -288,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alien1: -1813444602
-      Alien2: -523206707
-      Alien3: -1558268981
       Alien4: -759369286
-      AlienBoss: -1845440817
       Aliens_5: 1439132594
       Aliens_7: 80121822
       Cannon: 1166453714
+      Crab: -523206707
+      Octopus: -1558268981
+      Squid: -1813444602
+      UFO: -1845440817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
