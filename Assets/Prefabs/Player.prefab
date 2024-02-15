@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3985004657521359368}
   - component: {fileID: 3985004657521359369}
   - component: {fileID: 1641222097}
-  - component: {fileID: 45579643331086864}
+  - component: {fileID: 8243835241342717162}
   m_Layer: 9
-  m_Name: Alien
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1813444602, guid: 97237c4637289f246b8f4a9cfa6e68d7, type: 3}
+  m_Sprite: {fileID: 1166453714, guid: 97237c4637289f246b8f4a9cfa6e68d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &45579643331086864
+--- !u!114 &8243835241342717162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,6 +158,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3985004657521359367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e228b7011fc4c44e947bed9ffc114ef, type: 3}
+  m_Script: {fileID: 11500000, guid: e2e7ad597ba46f7408e32a98d15f86e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  speed: 10
