@@ -1,27 +1,30 @@
 using MySpaceInvader.Define;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace MySpaceInvader.Entity
 {
     public class Alien : MonoBehaviour
     {
         public int Id { get; protected set; }
-
-        private AlienType _type;
+        public int Score { get; protected set; }
         
-        public Alien Clone(int id)
+        [SerializeField]
+        private AlienType type;
+        
+        public Alien Clone(int id, int score)
         {
             var alien = Instantiate<Alien>(this);
-            alien.Init(id, _type);
+            alien.Init(id, score);
             alien.SetState(0);
             alien.gameObject.SetActive(true);
             return alien;
         }
         
-        public void Init(int id, AlienType type)
+        public void Init(int id, int score)
         {
             Id = id;
-            _type = type;
+            Score = score;
         }
 
         public void SetState(int stateId)

@@ -12,6 +12,7 @@ namespace MySpaceInvader.Model
         {
             public int id;
             public AlienType type;
+            public int score;
         }
 
         public AlienData[] alienData;
